@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1265625" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1265625" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/drawable/ic_status_online.xml" value="0.1265625" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/drawable/oval.xml" value="0.1265625" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/drawable/recyclerview_bg.xml" value="0.1265625" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/drawable/users_bg.xml" value="0.1265625" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/activity_main.xml" value="0.11041666666666666" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/fragment_auth.xml" value="0.22395833333333334" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/fragment_block.xml" value="0.11041666666666666" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/fragment_home.xml" value="0.19199999414062519" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/fragment_send.xml" value="0.22395833333333334" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/fragment_setting.xml" value="0.32428355957767724" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/row_last_message.xml" value="0.2800608828006088" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/row_setting.xml" value="0.5145599842968755" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/row_users.xml" value="0.4901065449010654" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/row_users_last_msg.xml" value="0.3530701754385965" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/rv_message.xml" value="0.38399998828125037" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/rv_view_rage_2.xml" value="0.22395833333333334" />
+        <entry key="..\:/android/project/TalkMe/app/src/main/res/layout/undo.xml" value="0.22395833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

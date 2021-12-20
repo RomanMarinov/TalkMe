@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment_Setting"
+    android:background="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/tv_setting"
+            android:text="задать текст что изменить в tv_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/edt_setting"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:focusable="true"
+            android:focusedByDefault="true"
+            android:hint="мой статус"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+
+
+        <ImageView
+            android:id="@+id/img_send_name"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/check_nebespokoit"
+            android:layout_marginStart="10dp"
+            android:visibility="visible"
+            app:layout_constraintLeft_toRightOf="@id/edt_setting"
+            app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ll_tv_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/edt_setting"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ll_dostupen_nebespokoit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="@id/ll_tv_main"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/ll_check"
+            >
+            <TextView
+                android:id="@+id/tv_dostupen"
+                android:text="доступен"
+                android:textSize="16dp"
+                android:visibility="visible"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toTopOf="@id/ll_dostupen_nebespokoit"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/tv_nebespokoit"
+                android:text="не беспокоить"
+                android:textSize="16dp"
+                android:visibility="visible"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_dostupen"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/ll_check"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:orientation="vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toTopOf="@id/ll_tv_main"
+                app:layout_constraintLeft_toRightOf="@id/ll_dostupen_nebespokoit"
+                >
+
+                <ImageView
+                        android:id="@+id/img_tv_dostupen"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:visibility="gone"
+                        android:src="@drawable/check_dostupen"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/ll_check_2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:orientation="vertical"
+                android:layout_marginStart="10dp"
+                app:layout_constraintLeft_toRightOf="@id/ll_dostupen_nebespokoit"
+                app:layout_constraintBottom_toBottomOf="@id/ll_tv_main"
+
+                >
+
+
+            <ImageView
+                android:id="@+id/img_tv_nebespokoit"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/check_nebespokoit"
+                android:visibility="gone"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+            />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+</FrameLayout>

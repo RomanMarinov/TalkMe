@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/cl_user1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    app:layout_constraintTop_toTopOf="parent"
+    >
+
+<!--    <TextView-->
+<!--        android:id="@+id/user_name_text_out_going"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:text=""-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/message_text_out_going"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        />-->
+
+    <TextView
+        android:id="@+id/message_text_out_going"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_message_out_going"
+        android:gravity="end"
+        android:padding="10dp"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="3"
+        android:text="любое сообщениелюбое сообщениелюбое сообщениелюбое сообщениелюбое сообщениелюбое сообщениелюбое сообщениелюбое сообщениелюбое сообщениелюбое сообщение"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/time_text_out_going"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/time_text_out_going"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textTime21:16"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/img_msg_send"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_msg_send"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="gone"
+        android:src="@drawable/msg_sent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/img_msg_unread"
+        />
+
+    <ImageView
+        android:id="@+id/img_msg_unread"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="gone"
+        android:src="@drawable/msg_unread"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/img_msg_read"
+      />
+
+    <ImageView
+        android:id="@+id/img_msg_read"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="gone"
+        android:src="@drawable/msg_read"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_user2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@id/cl_user1"
+        >
+
+<!--        <TextView-->
+<!--            android:id="@+id/user_name_text_incoming"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:text=""-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+        <TextView
+            android:id="@+id/message_text_incoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="3"
+            android:padding="10dp"
+            android:background="@drawable/background_message_incoming"
+            android:textColor="@android:color/black"
+            android:text="любое сообщение любое сообщение любое сообщение любое сообщение любое сообщение любое сообщение любое сообщение любое сообщение любое сообщение любое сообщение любое сообщение любое сообщение любое сообщение любое сообщение любое сообщение "
+            app:layout_constraintBottom_toTopOf="@+id/time_text_incoming"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/time_text_incoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21:16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/message_text_incoming" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/tv_msg_null"
+        android:text="нет сообщений"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
