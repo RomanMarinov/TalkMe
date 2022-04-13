@@ -14,6 +14,7 @@
 База данных: mysql
 
 ## Скрины экрана 
+https://www.youtube.com/watch?v=wg8fCTgZD1k&t=80s
 ![2021_09_09_15 21 58](https://user-images.githubusercontent.com/61028366/132859312-f4136cfa-a652-4757-840e-eba7361c8d0d.jpg)
 ![2021_09_09_15 22 03](https://user-images.githubusercontent.com/61028366/132859322-6c9bfe4c-faed-4adb-975c-e0da279fb9a0.jpg)
 ![2021_09_09_15 24 23](https://user-images.githubusercontent.com/61028366/132859329-cce91798-9724-4d49-8db6-4bea7e62d1be.jpg)
